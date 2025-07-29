@@ -1,319 +1,152 @@
-.name{
-    color: white;
-}
+/* ===== Global Styles ===== */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background-color: #f7f7f7;
-    color: #333;
-  }
-  
-  .header {
-    background-color: #1e1e2f;
-    color: white;
-    padding: 1rem 0;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 1rem;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  .highlight {
-    color: red;
-  }
-  
-  .nav a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .nav a:hover {
-    color: #00bfff;
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.highlight {
+  color: red;
+}
+
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #00bfff;
+}
+
+/* ===== Intro Section ===== */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ===== Sections ===== */
+.section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* ===== Cards ===== */
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1e1e2f;
+}
+
+/* ===== Skills Table ===== */
+.language-table {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.language-table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.lang {
+  font-weight: bold;
+}
+
+.lang.java    { color: #007396; }
+.lang.python  { color: #3572A5; }
+.lang.c       { color: #555; }
+.lang.cpp     { color: #f34b7d; }
+
+/* ===== Contact Section ===== */
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #2351d1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #10a1f0;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1e1e2f;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
   .intro {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
-    background-color: #fff;
-    border-bottom: 2px solid #ccc;
-  }
-  
-  .profile-pic {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .section {
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  .language-table {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 1rem;
-    border-collapse: collapse;
-  }
-  
-  .language-table td {
-    padding: 0.8rem;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .lang {
-    font-weight: bold;
-  }
-  
-  .lang.java { color: #007396; }     /* Java blue */
-  .lang.python { color: #3572A5; }   /* Python blue */
-  .lang.c { color: #555; }
-  .lang.cpp { color: #f34b7d; }      /* C++ pink */
-  
-  .footer {
+    flex-direction: column;
     text-align: center;
-    padding: 1rem;
-    background-color: #1e1e2f;
-    color: white;
-    margin-top: 2rem;
   }
-  
-  @media (max-width: 768px) {
-    .intro {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-    }
-  }
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background-color: #f7f7f7;
-    color: #333;
-  }
-  
-  .header {
-    background-color: #1e1e2f;
-    color: white;
-    padding: 1rem 0;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 1rem;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  .highlight {
-    color: red;
-  }
-  
-  .nav a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .nav a:hover {
-    color: #00bfff;
-  }
-  
-  .intro {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
-    background-color: #fff;
-    border-bottom: 2px solid #ccc;
-  }
-  
+
   .profile-pic {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
   }
-  
-  .section {
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .language-table {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 1rem;
-    border-collapse: collapse;
-  }
-  
-  .language-table td {
-    padding: 0.8rem;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .lang {
-    font-weight: bold;
-  }
-  
-  .lang.java { color: #007396; }     /* Java blue */
-  .lang.python { color: #3572A5; }   /* Python blue */
-  .lang.c { color: #555; }
-  .lang.cpp { color: #f34b7d; }      /* C++ pink */
-  
-  .footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #1e1e2f;
-    color: white;
-    margin-top: 2rem;
-  }
-  
-  @media (max-width: 768px) {
-    .intro {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-    }
-  }
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background-color: #f7f7f7;
-    color: #333;
-  }
-  
-  .header {
-    background-color: #1e1e2f;
-    color: white;
-    padding: 1rem 0;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 1rem;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  .highlight {
-    color: red;
-  }
-  
-  .nav a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .nav a:hover {
-    color: #00bfff;
-  }
-  
-  .intro {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
-    background-color: #fff;
-    border-bottom: 2px solid #ccc;
-  }
-  
-  .profile-pic {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .section {
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  .card {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 1rem;
-  }
-  
-  .card h3 {
-    margin-top: 0;
-    color: #1e1e2f;
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #1e1e2f;
-    color: white;
-    margin-top: 2rem;
-  }
-  
-  @media (max-width: 768px) {
-    .intro {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .nav {
-      flex-direction: column;
-      gap: 10px;
-    }
-  }
-  
+}

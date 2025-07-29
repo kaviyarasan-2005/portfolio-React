@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import './Design.css';
-import './About.css';
-import './contact.css';
+// import './Design.css';
+// import './About.css';
+// import './contact.css';
 
 function App() {
   useEffect(() => {
