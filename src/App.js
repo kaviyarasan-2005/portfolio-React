@@ -27,7 +27,7 @@ function App() {
           <h2>Software Developer </h2>
         
           <p>Email: <a href="mailto:kavigunasekar185@gmail.com">kavigunasekar185@gmail.com</a></p>
-            <p>Resume: <a href="https://drive.google.com/file/d/1ZozJtRC71-Azxghlirw_jw0OFJNw3ODX/view?usp=sharing">Kaviyarasan Resume</a></p>
+            <p>Resume: <a href="https://drive.google.com/file/d/1ZozJtRC71-Azxghlirw_jw0OFJNw3ODX/view?usp=sharing">View Resume</a></p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/kaviyarasan-g-11068125a" target="_blank">View Profile</a></p>
         </div>
       </section>
