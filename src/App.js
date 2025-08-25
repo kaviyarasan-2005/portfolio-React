@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import './App.css';
-// import './Design.css';
-// import './About.css';
-// import './contact.css';
 
 function App() {
   useEffect(() => {
@@ -79,20 +76,34 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="section">
-        
+{/* About Section */}
+<section id="about" className="section">
+  <h2>Skills</h2>
+  <div className="card">
+    <h3>Languages</h3>
+    <p>Java, Python, C, C++, TypeScript, SQL</p>
+    <h3>Coursework</h3>
+    <p>Data Structures and Algorithms, Object-Oriented Programming, Database Management</p>
+    <h3>Development Skills</h3>
+    <p>App Development, React Native Expo, Android Native, HTML, CSS</p>
+    <h3>Tools</h3>
+    <p>IBM Cognos BI, IBM Watson Studio, My SQL, Git, VS Code, Figma, MySQL, Android Studio</p>
+  </div>
 
-        <h2>Skils</h2>
-        <table className="language-table">
-          <tbody>
-            <tr><td>1</td><td><span className="lang java">Java</span></td></tr>
-            <tr><td>2</td><td><span className="lang python">Python</span></td></tr>
-            <tr><td>3</td><td><span className="lang c">C</span></td></tr>
-            <tr><td>4</td><td><span className="lang cpp">C++</span></td></tr>
-          </tbody>
-        </table>
-      </section>
+  <h2 style={{ marginTop: "2rem" }}>Education</h2>
+  <div className="card">
+    <h3>M. Kumarasamy College of Engineering</h3>
+    <p><strong>Degree:</strong> B.Tech Artificial Intelligence and Data Science</p>
+    <p><strong>Location:</strong> Karur</p>
+    <p><strong>Duration:</strong> October 2022 – Pursuing</p>
+  </div>
+  <div className="card">
+    <h3>Dr. J.C. Kumarappa School</h3>
+    <p><strong>Level:</strong> Higher Secondary Certificate</p>
+    <p><strong>Location:</strong> Peravurani</p>
+    <p><strong>Completed:</strong> April 2022</p>
+  </div>
+</section>
 
       {/* Contact Section */}
       <section id="contact" className="section">
@@ -110,7 +121,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>© 2025 Kaviyarasan G</p>
+        <p>© 2025 Kaviyarasan G </p>
       </footer>
     </div>
   );
