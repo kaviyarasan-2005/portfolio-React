@@ -87,7 +87,7 @@ function App() {
     <h3>Development Skills</h3>
     <p>App Development, React Native Expo, Android Native, HTML, CSS</p>
     <h3>Tools</h3>
-    <p>IBM Cognos BI, IBM Watson Studio, My SQL, Git, VS Code, Figma, MySQL, Android Studio</p>
+    <p>IBM Cognos BI, IBM Watson Studio, My SQL, Git, VS Code, Figma, Android Studio</p>
   </div>
 
   <h2 style={{ marginTop: "2rem" }}>Education</h2>
