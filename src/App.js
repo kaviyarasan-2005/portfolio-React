@@ -24,7 +24,7 @@ function App() {
       <section id="home" className="intro">
         <img src="/assets/ID photo.jpg" alt="Kaviyarasan" className="profile-pic" />
         <div>
-          <h2>Frontend Developer </h2>
+          <h2>Software Developer </h2>
         
           <p>Email: <a href="mailto:kavigunasekar185@gmail.com">kavigunasekar185@gmail.com</a></p>
             <p>Resume: <a href="https://drive.google.com/file/d/1ZozJtRC71-Azxghlirw_jw0OFJNw3ODX/view?usp=sharing">Kaviyarasan Resume</a></p>
